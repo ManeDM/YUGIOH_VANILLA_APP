@@ -56,9 +56,11 @@ header{
 }
 
 .img-star-container .stardustd{
+    display: flex;
     width: 800px;
     margin-top: -5rem;
 }
+
 
 @keyframes mover {
     0% {
@@ -71,7 +73,7 @@ header{
 
   #stardustd{
     animation-name: mover; 
-    animation-duration: 1.2s; 
+    animation-duration: 2s; 
     animation-timing-function: ease-in-out; 
     
 }
@@ -106,5 +108,5 @@ header{
   }
 
   .action-message:hover{
-    font-size: 47px;
+    font-size: 50px;
   }
