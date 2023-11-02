@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background-image: url(../img/tech-yugi-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 250px;
+    margin: 20px;
+}
+
+.list-items{
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.list-items ul{
+    display: flex;
+}
+
+.list-items ul li{
+    margin: 0 25px;
+}
+
+.img-star-container{
+    display: flex;
+    justify-content: center;
+}
+
+.img-star-container .stardustd{
+    width: 800px;
+    margin-top: -5rem;
+}
+
